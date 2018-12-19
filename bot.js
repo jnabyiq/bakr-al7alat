@@ -34,9 +34,9 @@ client.on('ready', () => {
  
  
 
-var prefix = "-"
+var prefix = "#-"
 client.on('message', function(message) {
-    const myID = "505761472232816641";
+    const myID = "512625982751113216";
    let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
                 if(message.author.id !== myID) return;
