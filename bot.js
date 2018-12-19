@@ -28,7 +28,7 @@ client.on('ready', () => {
 
   
   
-
+});
 
 
  
